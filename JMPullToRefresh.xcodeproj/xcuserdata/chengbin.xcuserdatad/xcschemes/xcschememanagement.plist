@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LibJMPullToRefresh.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7C945B891CE3242900CAF4B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7CB931071CE1C2E100D839AC</key>
 		<dict>
 			<key>primary</key>

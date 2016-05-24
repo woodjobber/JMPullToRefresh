@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C945B8D1CE3242900CAF4B1 /* LibJMPullToRefresh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C945B8C1CE3242900CAF4B1 /* LibJMPullToRefresh.h */; };
+		7C945B981CE324B300CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9312B1CE1C67200D839AC /* UIScrollView+DirectionAndPullToRefresh.m */; };
+		7C945B991CE324B300CAF4B1 /* UIView+JM360Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9312D1CE1C67200D839AC /* UIView+JM360Rotate.m */; };
+		7C945B9B1CE325F200CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB9312A1CE1C67200D839AC /* UIScrollView+DirectionAndPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C945B9C1CE325F200CAF4B1 /* UIView+JM360Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB9312C1CE1C67200D839AC /* UIView+JM360Rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C945BA11CE326A500CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CB9312A1CE1C67200D839AC /* UIScrollView+DirectionAndPullToRefresh.h */; };
+		7C945BA21CE326A500CAF4B1 /* UIView+JM360Rotate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CB9312C1CE1C67200D839AC /* UIView+JM360Rotate.h */; };
 		7CB9310D1CE1C2E100D839AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9310C1CE1C2E100D839AC /* main.m */; };
 		7CB931101CE1C2E100D839AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9310F1CE1C2E100D839AC /* AppDelegate.m */; };
 		7CB931131CE1C2E100D839AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB931121CE1C2E100D839AC /* ViewController.m */; };
@@ -18,7 +25,34 @@
 		7CB931311CE1C6AA00D839AC /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB931301CE1C6AA00D839AC /* Resource.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7C945B931CE3245D00CAF4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB931001CE1C2E100D839AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB931071CE1C2E100D839AC;
+			remoteInfo = JMPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C945B881CE3242900CAF4B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7C945BA11CE326A500CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.h in CopyFiles */,
+				7C945BA21CE326A500CAF4B1 /* UIView+JM360Rotate.h in CopyFiles */,
+				7C945B8D1CE3242900CAF4B1 /* LibJMPullToRefresh.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C945B8A1CE3242900CAF4B1 /* libLibJMPullToRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibJMPullToRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C945B8C1CE3242900CAF4B1 /* LibJMPullToRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibJMPullToRefresh.h; sourceTree = "<group>"; };
 		7CB931081CE1C2E100D839AC /* JMPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB9310C1CE1C2E100D839AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CB9310E1CE1C2E100D839AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7C945B871CE3242900CAF4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CB931051CE1C2E100D839AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C945B8B1CE3242900CAF4B1 /* LibJMPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				7C945B8C1CE3242900CAF4B1 /* LibJMPullToRefresh.h */,
+			);
+			path = LibJMPullToRefresh;
+			sourceTree = "<group>";
+		};
 		7CB930FF1CE1C2E100D839AC = {
 			isa = PBXGroup;
 			children = (
 				7CB9310A1CE1C2E100D839AC /* JMPullToRefresh */,
+				7C945B8B1CE3242900CAF4B1 /* LibJMPullToRefresh */,
 				7CB931091CE1C2E100D839AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7CB931081CE1C2E100D839AC /* JMPullToRefresh.app */,
+				7C945B8A1CE3242900CAF4B1 /* libLibJMPullToRefresh.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +153,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7C945B9A1CE325E600CAF4B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C945B9B1CE325F200CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.h in Headers */,
+				7C945B9C1CE325F200CAF4B1 /* UIView+JM360Rotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		7C945B891CE3242900CAF4B1 /* LibJMPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C945B921CE3242900CAF4B1 /* Build configuration list for PBXNativeTarget "LibJMPullToRefresh" */;
+			buildPhases = (
+				7C945B861CE3242900CAF4B1 /* Sources */,
+				7C945B871CE3242900CAF4B1 /* Frameworks */,
+				7C945B881CE3242900CAF4B1 /* CopyFiles */,
+				7C945B9A1CE325E600CAF4B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C945B941CE3245D00CAF4B1 /* PBXTargetDependency */,
+			);
+			name = LibJMPullToRefresh;
+			productName = LibJMPullToRefresh;
+			productReference = 7C945B8A1CE3242900CAF4B1 /* libLibJMPullToRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		7CB931071CE1C2E100D839AC /* JMPullToRefresh */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CB9311F1CE1C2E100D839AC /* Build configuration list for PBXNativeTarget "JMPullToRefresh" */;
@@ -129,6 +211,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = chengbin;
 				TargetAttributes = {
+					7C945B891CE3242900CAF4B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					7CB931071CE1C2E100D839AC = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -148,6 +233,7 @@
 			projectRoot = "";
 			targets = (
 				7CB931071CE1C2E100D839AC /* JMPullToRefresh */,
+				7C945B891CE3242900CAF4B1 /* LibJMPullToRefresh */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +253,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7C945B861CE3242900CAF4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C945B981CE324B300CAF4B1 /* UIScrollView+DirectionAndPullToRefresh.m in Sources */,
+				7C945B991CE324B300CAF4B1 /* UIView+JM360Rotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CB931041CE1C2E100D839AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +275,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C945B941CE3245D00CAF4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB931071CE1C2E100D839AC /* JMPullToRefresh */;
+			targetProxy = 7C945B931CE3245D00CAF4B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7CB931141CE1C2E100D839AC /* Main.storyboard */ = {
@@ -201,6 +304,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7C945B901CE3242900CAF4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C945B911CE3242900CAF4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		7CB9311D1CE1C2E100D839AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,6 +431,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7C945B921CE3242900CAF4B1 /* Build configuration list for PBXNativeTarget "LibJMPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C945B901CE3242900CAF4B1 /* Debug */,
+				7C945B911CE3242900CAF4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7CB931031CE1C2E100D839AC /* Build configuration list for PBXProject "JMPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

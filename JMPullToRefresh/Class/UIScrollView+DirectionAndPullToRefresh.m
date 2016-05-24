@@ -227,12 +227,12 @@ void *observerContext = "UIScrollViewDirection";
 }
 - (BOOL)showPullToRefresh {
     
-    return objc_getAssociatedObject(self, ShowPullToRefreshKey);
+    return [objc_getAssociatedObject(self, ShowPullToRefreshKey) boolValue];
 }
 
 - (void)setMinOffsetToRefresh:(CGFloat)minOffsetToRefresh {
     
-  objc_setAssociatedObject(self, UISCrollViewMinOffsetKey, @(minOffsetToRefresh), OBJC_ASSOCIATION_ASSIGN);
+  objc_setAssociatedObject(self, UISCrollViewMinOffsetKey, @(minOffsetToRefresh), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (CGFloat)minOffsetToRefresh {
